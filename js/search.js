@@ -648,7 +648,7 @@ var HexoSearch;
   HexoSearch = function(options) {
     SearchService.apply(this, arguments);
     var self = this;
-    self.config.endpoint = (options||{}).endpoint || "https://deeplydiligent.github.io/blog/content.json";
+    self.config.endpoint = (options||{}).endpoint || "/content.json";
     self.cache = "";
     
     /**
