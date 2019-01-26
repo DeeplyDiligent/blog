@@ -1,4 +1,5 @@
 var customSearch;
+window.location.replace("https://medium.com/deeplydiligent-blog");
 (function($) {
 	
 	"use strict";
